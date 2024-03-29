@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nyunai</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <style>
+        /* body{
+            background-color: black;
+        } */
+        .carousel-item {
+            height: 100px; /* Adjust the height as needed */
+            display: flex;
+            align-items: center; /* Vertically center the content */
+        }
+        .carousel-item img {
+           max-height: 100%;
+            max-width: 100%;
+            margin: auto; /* Center the image horizontally */
+        }
+        
+    </style>
+    <style>
+        .carousel-control-next {
+            right: 0; /* Adjust the position of the right arrow */
+            left: auto; /* Reset the left property */
+            top:20%;
+            width: 5%; /* Adjust the width of the arrow */
+        }
+    </style>
+    
+    <!-- Favicons -->
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    
+    <!-- Bootstrap CSS File -->
+    <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="assets/css/stylecs.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <style>
+        @media only screen and (max-width: 600px) {
+
+            #hero .btn-outline-secondary {
+                color: #FFF;
+                background-color: transparent;
+                background-image: none;
+                border-color: #fff;
+                padding: 12px 62px 12px;
+                font-size: 17px;
+                font-weight: 500;
+                border: 3px solid;
+                border-radius: 2px;
+                width: 79% !important;
+                margin-top: 119px;
+            }
+
+            #hero {
+                width: 100%;
+                height: 200vh;
+                background-image: url(assets/images/banner-1.png);
+                background-size: cover;
+                position: relative;
+            }
+
+            .safeguarding {
+                text-align: center;
+            }
+        }
+        .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 9px;}
+    .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    flex: 1;
+    margin: 16px;
+    text-align: left;
+}
+
+.white-text {
+    color: #dbdbdb;
+    line-height: 1.4;
+    font-size: 12px;/* Sets the white color with 80% opacity (#80) */
+}
+p {
+    font-size: 16px; /* Adjust the value as needed to increase the text size */
+}
+
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V2HJ2YR57S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V2HJ2YR57S');
+</script>
+<style>
+    /* Your CSS styles here */
+    .menu {
+        list-style-type: none;
+        padding: 0;
+    }
+    .mkl{
+        margin-top: -20%;
+    }
+    @media  (max-width:800px){
+        .mkl{
+            margin-top:-45%;
+            margin-left:0 5%;
+        }
+        .uuu{
+            margin-top: 10%;
+        }
+
+    }
+    @media  (min-width:800px) and (max-width:1020px){
+
+        .ctn{
+            width:300px;
+        }
+
+
+    }
+    .menu li {
+        position: relative;
+        float: left;
+        margin-right: 20px;
+    }
+    .menu li a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+    }
+    .menu li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f9f9f9;
+        padding: 0;
+    }
+    .menu li:hover ul {
+        display: block;
+    }
+    .menu li ul li {
+        float: none;
+        width: 200px;
+    }
+    .menu li ul li a {
+        padding: 10px;
+    }
+    </style>
+</head>
+
+<body>
+
+  
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <a href="index.html"><img src="assets/images/logo.png" alt="" title=""></img></a>
+            </div>
+    
+            <nav id="nav-menu-container">
+                <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                    <li class="menu-has-children"><a href="#" class="sf-with-ul">Products</a>
+                        <ul>
+                            <li><a href="#nyunaizero">N-zero</a></li>
+                            <li><a href="#nyunkompress">N-kompress</a></li>
+                            <li><a href="#nyunadapt">N-adapt</a></li>
+                            <li><a href="#ntrack">N-track</a></li>
+                        </ul>
+                    </li>
+                 
+                    <!-- <li class="menu-has-children"><a href="javascript:void(0)" class="sf-with-ul">Services</a>
+                        <ul style="display: none;">
+                            <li><a href="<?php echo base_url('contact');?>">Developing use case-specific models</a></li>
+                            <li><a href="<?php echo base_url('contact');?>">Compressing your existing Models</a></li>
+                            <li><a href="<?php echo base_url('contact');?>">Training LLMs on your data</a></li>
+                            <li><a href="<?php echo base_url('contact');?>">Improving Inference speeds</a></li>
+                            <li><a href="<?php echo base_url('contact');?>">Enabling to switch from cloud to edge</a></li>
+                        </ul>
+                    </li> -->
+                
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li class="menu-has-children"><a href="#" class="sf-with-ul">Resources</a>
+                        <ul>
+                            <li><a href="./new_blog.html">Blogs</a></li>
+                            <li><a href="./documentation.html">Documentation</a></li>
+                            <li><a href="./documentation.html">Case studies</a></li>
+                            <li><a href="./documentation.html">Media Coverage</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <!-- <li><a href="./new_blog.html">Blog</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        // JavaScript to toggle visibility of submenu
+        document.addEventListener("DOMContentLoaded", function() {
+            var menuItems = document.querySelectorAll('.menu-has-children');
+            menuItems.forEach(function(item) {
+                item.addEventListener('click', function(event) {
+                    event.stopPropagation();
+                    var submenu = this.querySelector('ul');
+                    if (submenu.style.display === 'none' || submenu.style.display === '') {
+                        submenu.style.display = 'block';
+                    } else {
+                        submenu.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                var menu = document.querySelector('.menu');
+                if (!menu.contains(event.target)) {
+                    var submenus = document.querySelectorAll('.menu-has-children ul');
+                    submenus.forEach(function(submenu) {
+                        submenu.style.display = 'none';
+                    });
+                }
+            });
+        });
+        </script>
+        <style>
+            .carousel-image {
+                width: 20%; /* Set a fixed width for the images */
+                height: 20px; /* Allow the height to adjust proportionally */
+              
+            }
+            @media (min-width:800px){
+            .uuu{
+                width :35%
+            }
+        }
+        @media (max-width:799px){
+            .uuu{
+                width :70%
+            }
+        }
+        </style>
+  <section class="banners ">
+  </section><section class="banners py-5">
+    </section>
+    <!-- Add this script after the HTML content -->
+
+
+    <section class="banners py-5">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-lg-10 col-sm-8 col-md-8">
+                    <h1 class="display-3 text-white animated slideInDown mb-4 -py-5">Making deep learning models <br>
+                        <span id="flipper" class="flip">
+                            <span class="step step0 set">Lean</span>
+                            <span class="step step1">Efficient</span>
+                            <span class="step step2">Faster</span>
+                            <span class="step step3">Affordable</span>
+                            <span class="step step4 down">Sustainable</span>
+                        </span>
+                    </h1>
+                   
+                </div>
+                <style>
+                    .dtf{
+                       /* margin-left: -10%; */
+                       text-align: left;
+                    }
+                    .ctn{
+                        margin-top: 2%;
+                    }
+                    @media (min-width:580px) and (max-width:767px) {
+                        .hhh{
+                            margin-top: -25%;
+                           margin-left: -35%;
+                        }
+                        
+                    }
+                    @media (min-width:768px) and (max-width:2024px) {
+                        .hhh{
+                            margin-top: -30%;
+                           margin-left: -50%;
+                        }
+                        
+                    }
+                    .lml{
+                        margin-top: 12px;
+                       
+                    }
+                </style>
+                <br><br>
+                         <div class="col-sm-6 col-md-6 col-lg-6 ">
+                    <div >
+                        <p class=" pt-2">Unleash the true potential of your business through our lean,
+                            efficient, and super-fast deep learning
+                            models.
+                            Whether it's <span class="dtf"> optimizing performance, or accelerating inference speeds, we've got you covered.
+                        </span></p>
+             </div></div>    
+             
+                    <div class="col-lg-12 col-sm-8 col-md-12">
+             <div class="ctn col-sm-6 col-md-6 col-lg-6 px-20">
+                <a href="contact-us.html" type="button" class="btn btn-secondary bg-black fs-1"><h5 class="lml">&nbsp;&nbsp;Contact Us &nbsp;&nbsp;</h5>
+                </a>
+         
+            </div>
+            <br><br><br>
+            </div>
+            <!-- <div class="col-lg-10 col-sm-4 col-md-8"> -->
+                <div id="cover" class=" col-sm-1 col-md-1  hhh cover">
+                    <img src="assets/images/img.webp" class="w-150">
+                <!-- </div> -->
+                
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <!-- <script>
+                    $(document).ready(function(){
+                        // Delay execution for 2 seconds
+                        setTimeout(function(){
+                            // Slide down animation
+                            $('#cover').slideDown();
+                        }, 2000); // 2000 milliseconds = 2 seconds
+                    });
+                </script> -->
+                
+       
+                        <style>
+                            .kk{
+                                height:400px;
+                                /* margin-right: 10%;
+                                width:20%; */
+                            }
+                            .vb{
+                                margin-top: -8px;
+                            }
+                            .carousel-item {
+    height: 450px; /* Adjust the height value as needed */
+}
+.carousel-item .nyunai p {
+    height: 200px; /* Adjust the height value as needed */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Add ellipsis for text overflow */
+}
+
+.carousel-item .nyunai button img {
+    height: 60px; /* Adjust the height value as needed */
+}
+@media (min-width:576) and (max-width:1000px)
+{.qaz{
+
+position: relative;
+top:20%;
+left:-40%;
+
+}
+.piu{
+    width: 300px;
+}
+}
+
+                        </style>
+<style>
+  
+    .carousel-horizontal-scroll {
+        overflow-x: auto;
+       
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+
+    }
+    .carousel-horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+    .carousel-inner {
+        display: flex; /* Display items in a horizontal row */
+        flex-direction: row;
+        gap: 10px; /* Adjust gap between items as needed */
+        padding: 10px; /* Adjust padding as needed */
+        transition: transform 0.5s ease; /* Add smooth transition effect */
+    }
+    .carousel-item {
+        flex: 0 0 auto;
+        width: 300px; /* Set width for each item */
+        /* Adjust width as needed */
+    }
+    .bgt{
+        margin-top: -8%;
+    }
+    </style>
+<div class=" container bgt">
+    <div class="">
+        <div class="carousel-inner carousel-horizontal-scroll">
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>Budget aware binarization of CNNs using MixBin, <span>WACV 2024</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vb vgh"><img
+                                        src="./assets/images/WACV-Logo_2024-1024x263.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>Growing Vision Transformers with Heterogenous scaling for improved efficiency and performance,<span> ICLR 2024</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/ICRL1.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Rethinking Compression with Reduced Order Modelling for lighter LLMs,<span> ICLR 2024</span></p>
+                                <button type="button" class="btn btn-light w-100 vgh "><img
+                                        src="assets/images/ICRL1.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Designing light-weight CNN and transformer based object trackers through network pruning, <span> ICASSP 2023*</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/ICASSP.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Benchmarking model training and inference for resource constrained deep learning, <span>RCV@ICCV 2023</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/iccv.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Training CNNs on large images on single GPU, once impossible, with patchGD.  <span>WANT@NeurIPS 2023</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 "><img
+                                        src="assets/images/Neurisp.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Slimming vision transformers without performance degradation using ViT-Slimming, <span>CVPR 2022</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/cvpr.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Improving the generalization ability & compute efficiency of Meta learning with MetaDOCK, <span>CVPR 2022</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/cvpr.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>⁠Rescaling CNNs through Learnable Repetitions of Network Parameters, <span>ICIP 2021</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/icip.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div class="carousel-item active kk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <div class="nyunai">
+                                <p>Developed the state-of-the-art (SOTA) model pruning method, called ChipNet,<span> ICLR 2021</span>
+                                </p>
+                                <button type="button" class="btn btn-light w-100 vgh"><img
+                                        src="assets/images/ICRL1.jpeg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                         
+                        <!-- Bootstrap Bundle with Popper -->
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"></script>
+                        
+                        <!-- <script>
+                            var carouselInstance; // Variable to hold the carousel instance
+                            var autoScrollInterval = null; // Variable to hold the auto-scroll interval
+                            var autoScrollPaused = false; // Variable to track if auto-scrolling is paused
+                            var manualScrolling = false; // Variable to track if manual scrolling is in progress
+                            var startX = 0; // Variable to store the initial mouse position
+                        
+                            // Function to start auto-scrolling
+                            function startAutoScroll() {
+                                if (autoScrollInterval === null && !autoScrollPaused && !manualScrolling) {
+                                    autoScrollInterval = setInterval(function () {
+                                        carouselInstance.next(); // Move to the next slide
+                                    }, 2000); // Change the interval here (in milliseconds)
+                                }
+                            }
+                        
+                            // Function to handle manual slide change
+                            function manualScroll() {
+                                $('#carouselExampleDark').on('mousedown', function(e) {
+                                    startX = e.clientX; // Store the initial mouse position
+                                    manualScrolling = true; // Set manual scrolling to true
+                                });
+                        
+                                $('#carouselExampleDark').on('mouseup', function(e) {
+                                    var endX = e.clientX; // Get the final mouse position
+                                    var threshold = 50; // Adjust the threshold as needed
+                        
+                                    if (startX - endX > threshold) { // If dragged left
+                                        carouselInstance.next(); // Move to the next slide
+                                    } else if (endX - startX > threshold) { // If dragged right
+                                        carouselInstance.prev(); // Move to the previous slide
+                                    }
+                        
+                                    clearInterval(autoScrollInterval); // Stop auto-scrolling
+                                    autoScrollInterval = null; // Set auto-scroll interval to null
+                                    autoScrollPaused = true; // Pause auto-scrolling
+                                    setTimeout(function () {
+                                        autoScrollPaused = false; // Resume auto-scrolling after a short delay
+                                        startAutoScroll();
+                                    }, 1000); // Adjust the delay here (in milliseconds)
+                        
+                                    manualScrolling = false; // Set manual scrolling to false
+                                });
+                            }
+                        
+                            // Call manualScroll function when the document is loaded
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var carousel = document.getElementById('carouselExampleDark');
+                                carouselInstance = new bootstrap.Carousel(carousel, { ride: false });
+                        
+                                // Start auto-scrolling
+                                startAutoScroll();
+                        
+                                // Call manualScroll function to handle manual slide change
+                                manualScroll();
+                            });
+                        </script> -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <script>
+            // Add this script to your HTML file to control the carousel manually
+            document.addEventListener('DOMContentLoaded', function () {
+                var myCarousel = document.getElementById('carouselExampleDark');
+                var carousel = new bootstrap.Carousel(myCarousel);
+            });
+        </script> -->
+        
+        <br><br>
+
+<div class="container section">
+
+    <div class="main-container">
+    
+    <div class="container-large align-center">
+    </div>
+    
+    <div class="lpo ml-5">
+        <!-- <div class="logo-row" id="logoRow"> -->
+           
+            <img src="./assets/images/microsoft.webp" alt="Microsoft for Startups" width="175" height="70" class="partner-logo">
+            <img src="./assets/images/google.webp" alt="Google Cloud for Startups"  width="200" height="70" srcset="https://assets-global.website-files.com/648033a07443fa45bc28a3e5/64cb4d8c8700d259e7671047_Google-Cloud-for-Startups-logo-p-500.png 500w, https://assets-global.website-files.com/648033a07443fa45bc28a3e5/64cb4d8c8700d259e7671047_Google-Cloud-for-Startups-logo.png 600w" class="partner-logo mk nn">
+        <img src="./assets/images/aws.webp" alt="AWS Activate"  width="175" height="70" srcset="https://assets-global.website-files.com/648033a07443fa45bc28a3e5/64cb4dad796a3d49adaf9832_aws-activate-p-500.webp 500w, https://assets-global.website-files.com/648033a07443fa45bc28a3e5/64cb4dad796a3d49adaf9832_aws-activate-p-800.webp 800w, https://assets-global.website-files.com/648033a07443fa45bc28a3e5/64cb4dad796a3d49adaf9832_aws-activate.webp 1024w" class="partner-logo mk nn">
+            <img src="./assets/images/nvidia.webp" alt="Nvidia Inception" height="70"  width="175" srcset="https://insights.virti.com/content/images/size/w2000/2021/09/20181218-Nvidia-Inception.png" class="partner-logo">
+       
+    </div>
+<style>
+    .mk{
+        background-color: white;
+    }
+    .lpo{
+        justify-content: center;
+        text-align: center;
+    }
+    .nn{
+        padding: 8px;
+    }
+</style>
+
+
+  
+    
+
+
+    
+    <style>
+.partner-logos-container {
+    overflow-x: hidden;
+    
+    white-space: nowrap; /* Prevent logos from wrapping to the next line */
+    
+}
+
+.logo-row {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.partner-logo {
+    margin-right: 60px;
+    margin-top: 5%;
+}
+
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+    .containerr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .images-container {
+            width: 80%; /* Adjust width of the container */
+            display: flex;
+            margin-left: 30px;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px; /* Adjust margin between images and buttons */
+        }
+        .fixed-image,
+        .dynamic-image {
+            width: 45%; /* Adjust width of images */
+            height: auto; /* Allow height to adjust automatically */
+            max-height: 300px; /* Set maximum height for both images */
+            object-fit: contain; /* Prevent stretching of images */
+        }
+      
+        .options-buttons button {
+    margin: 5px; /* Adjust spacing between buttons */
+    color: #ffffff; /* Text color */
+    background-color: #192A39; /* Background color */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #192A39; /* Border color */
+    padding: 8px 16px; /* Padding */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    height: 50px;
+}
+
+.options-buttons button.active {
+   
+    background-color: #ffffff; 
+    color: #192A39; 
+}
+
+
+.options-buttons button:hover {
+    background-color: white; /* Clicked background color */
+    color: #192A39; /* Clicked text color */
+}
+
+
+
+
+
+
+    .loading-text {
+        text-align: center;
+        width: 100%; /* Full width */
+        display: none;
+        margin-right:-20%;
+    }
+    .preloader {
+       
+        display: none; /* Initially hide preloader */
+        position: relative;
+            left:-50%;
+            top:-50%;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    .options-container {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    @media screen and (max-width: 700px) {
+        .fixed-image,
+        .dynamic-image {
+            width: 100%; /* Images take full width on smaller screens */
+            margin-top: 40px;
+        }
+        .images-container {
+            flex-direction: column; /* Stack images vertically */
+           
+        }
+        .options-container {
+            width:20%; /* Make options container full width */
+            height:50px;
+         
+        }
+    }
+    </style>
+    <script>
+
+
+
+
+
+    </script>
+  <style>
+    .bar-section {
+        text-align: center;
+    }
+
+    .options-buttons {
+        text-align: center;
+       
+    }
+  @media (min-width:501px) and (max-width:1000px){
+    .bar-container {
+        width: 200px;
+        height: 60px; /* Adjust height as needed */
+        margin-top: 350px; /* Center the bar containers */
+        margin-left: -17vh;
+      margin-bottom: -12%;
+
+    }
+}
+@media (max-width:500px){
+    .bar-container {
+        width: 200px;
+        height: 60px; /* Adjust height as needed */
+        margin-top: 350px; /* Center the bar containers */
+        margin-left: -30vh;
+        padding-left: -20%;
+      margin-bottom: -22%;
+
+    }
+  
+}
+
+@media (min-width:1001px){
+    .bar-container {
+        width: 200px;
+        height: 60px; /* Adjust height as needed */
+        margin-top: 390px; /* Center the bar containers */
+        margin-left: 2%;
+      margin-bottom: -12%;
+
+    }
+}
+    .bar-title {
+        position: relative;
+        top:-550%;
+        color:white;
+        font-size:16px;
+        margin-left:120%;
+        margin-right: -90%;
+     
+    }
+    .pl {
+    font-size: 25px;
+    position: relative;
+    top: -545%;
+    color: white;
+    text-align: center;
+    position: relative;
+    left:140%;
+   
+}
+
+    .bart-title {
+        position: relative;
+        top:-545%;
+        color:white;
+     margin-top: -10%;
+        margin-left:100%;
+        margin-right: -90%;
+     
+    }
+    .plp {
+       color:#449DD1;
+       margin-left: 110%;
+       font-size:11px;
+       
+    }
+   
+    .bar {
+        position: relative;
+        top:-150%;
+        width: calc(100% - 20px); /* Adjust width to leave space for values */
+        height: 55px; /* Adjust height as needed */
+        background: var(--Linear, linear-gradient(90deg, #013A98 0%, #449DD1 100%));;
+        margin-top: -61%;
+        margin-left:120%;
+        animation: fillBar 1s ease-in-out forwards; /* Animation for filling bars */
+    }
+
+    .bar-value {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+        left: 100%;
+        color: white;
+        opacity: 1; /* Initially hide */
+        font-size: 30px;
+        
+    }
+    .bar-text {
+    color: white;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the start of the bar */
+    margin-bottom: 10px; /* Add some space between bars if needed */
+    animation: appear 4s ease forwards;
+    opacity: 0;
+    font-size: 14px;
+ padding-top: 9px;
+    margin-left:15px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+    @keyframes fillBar {
+        from { width: 0; }
+    }
+</style>
+<script>
+    
+</script>
+    </head>
+    <body>
+    <br><br> <br><br>
+    <div class="bar-section">
+        <div id="preloader" class="preloader"></div>
+        <!-- <p id="loadingText" class="loading-text">Loading...</p> -->
+        
+        <!-- Add more buttons as needed -->
+    </div>
+
+
+
+    <script>
+
+  let activeButton = null;
+
+  // Function to handle button activation
+
+
+
+        function changeBars(option) {
+            // Hide all bar containers
+            var barContainers = document.querySelectorAll('.bar-container');
+            barContainers.forEach(function(container) {
+                container.style.display = 'none';
+            });
+
+            // Reset all bars to initial width and clear values
+            var bars = document.querySelectorAll('.bar');
+            bars.forEach(function(bar) {
+                bar.style.width = 'calc(100% - 10px)';
+                document.getElementById(bar.id + '-value').innerText = '';
+            });
+
+            // Adjust bars according to the selected option
+            switch(option) {
+                case 'YoloV8/RT-Detr':
+                    document.getElementById('bar1').style.width = '2.6x';
+                    document.getElementById('bar1-value').innerText = '3.6x';
+              
+                    document.getElementById('bar2').style.width = '70%';
+                    document.getElementById('bar2-value').innerText = '10.2x';
+                    document.getElementById('bar12').style.width = '70%';
+                    document.getElementById('bar12-value').innerText = '70%';
+                    document.getElementById('bar-container-1').style.display = 'block'; // Display the corresponding bar container
+                    break;
+                case 'VanillaNet':
+                    document.getElementById('bar3').style.width = '30%';
+                    document.getElementById('bar3-value').innerText = '30%';
+                
+                    document.getElementById('bar4').style.width = '80%';
+                    document.getElementById('bar4-value').innerText = '80%';
+                    document.getElementById('bar-container-2').style.display = 'block'; // Display the corresponding bar container
+                    break;
+                    case 'Llama-7B':
+                    document.getElementById('bar3').style.width = '30%';
+                    document.getElementById('bar3-value').innerText = '30%';
+                
+                    document.getElementById('bar4').style.width = '80%';
+                    document.getElementById('bar4-value').innerText = '80%';
+                    document.getElementById('bar-container-2').style.display = 'block'; // Display the corresponding bar container
+                    break;
+                    case 'Stable-Diffusion':
+                    document.getElementById('bar3').style.width = '30%';
+                    document.getElementById('bar3-value').innerText = '30%';
+                
+                    document.getElementById('bar4').style.width = '80%';
+                    document.getElementById('bar4-value').innerText = '80%';
+                    document.getElementById('bar-container-2').style.display = 'block'; // Display the corresponding bar container
+                    break;
+                    case 'BERT':
+                    document.getElementById('bar3').style.width = '30%';
+                    document.getElementById('bar3-value').innerText = '30%';
+                
+                    document.getElementById('bar4').style.width = '80%';
+                    document.getElementById('bar4-value').innerText = '80%';
+                    document.getElementById('bar-container-2').style.display = 'block'; // Display the corresponding bar container
+                    break;
+                // Add cases for other options
+            }
+        }
+    </script>
+    <div class="container">
+        <div class="images-container">
+            <!-- <img src="./assets/images/Group 94 2.svg" alt="First Image" class="fixed-image"> -->
+            <div class="options-container">
+                <div id="preloader" class="preloader"></div>
+                <p id="loadingText" class="loading-text">Loading...</p>
+            </div>
+            <!-- <img src="./assets/images/post6.png" alt="Second Image" class="dynamic-image" id="dynamicImage"> -->
+            
+            <!-- <img src="./assets/images/post6.png" alt="Second Image" class="dynamic-image" id="dynamicImage"> -->
+        </div>
+        <div class="options-buttons " >
+           
+           
+            <!-- Add more buttons as needed -->
+    
+            <div class="bar-container nnh" id="bar-container-1" style="display: none;">
+                <!-- <p class=" pl">YoloV8/RT-Detr</p>
+                <p class="bart-title">(Segmentation)</p> -->
+                <p class="bart-title plp">Tested on GPU-L4 devices</p>
+                <div class="bar" id="bar12">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar12-value">4.6x</span>
+                    <span class="bar-text">Energy Savings</span>
+                </div>
+                <div class="bar" id="bar2">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar2-value">11.7x</span>
+                    <span class="bar-text">Memory Savings</span>
+                </div>
+               
+                <div class="bar" id="bar1">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar1-value">7.4x</span>
+                    <span class="bar-text">Latency  Speedup</span>
+                </div>
+                
+               
+            </div>
+    
+            <div class="bar-container" id="bar-container-2" style="display: none;">
+                <!-- <p class="pl ">VanillaNet</p>
+                <p class="bart-title">(Segmentation)</p> -->
+                <p class="bart-title plp">Tested on GPU-L4 devices</p>
+                <div class="bar" id="bar34">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar34-value">3.6x</span>
+                    <span class="bar-text">Energy Savings</span>
+                </div>
+                <div class="bar" id="bar4">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar4-value">70%</span>
+                    <span class="bar-text">Memory Savings</span>
+                </div>
+               
+                <div class="bar" id="bar3">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar3-value">3.6x</span>
+                    <span class="bar-text">Latency  Speedup</span>
+                </div>
+            </div>
+            <div class="bar-container" id="bar-container-3" style="display: none;">
+                <!-- <p class="pl ">Llama-7B</p>
+                <p class="bart-title">(Segmentation)</p> -->
+                <p class="bart-title plp">Tested on GPU-L4 devices</p>
+                <div class="bar" id="bar56">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar56-value">3.6x</span>
+                    <span class="bar-text">Energy Savings</span>
+                </div>
+                <div class="bar" id="bar6">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar6-value">70%</span>
+                    <span class="bar-text">Memory Savings</span>
+                </div>
+               
+                <div class="bar" id="bar5">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar5-value">3.6x</span>
+                    <span class="bar-text">Latency  Speedup</span>
+                </div>
+            </div>
+            <div class="bar-container" id="bar-container-4" style="display: none;">
+                <!-- <p class="pl ">Stable-Diffusion</p>
+                <p class="bart-title">(Segmentation)</p> -->
+                <p class="bart-title plp">Tested on GPU-L4 devices</p>
+                <div class="bar" id="bar78">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar78-value">3.6x</span>
+                    <span class="bar-text">Energy Savings</span>
+                </div>
+                <div class="bar" id="bar8">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar8-value">70%</span>
+                    <span class="bar-text">Memory Savings</span>
+                </div>
+               
+                <div class="bar" id="bar7">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar7-value">3.6x</span>
+                    <span class="bar-text">Latency  Speedup</span>
+                </div>
+            </div>
+            <div class="bar-container" id="bar-container-5" style="display: none;">
+                <!-- <p class="pl ">BERT</p>
+                <p class="bart-title">(Segmentation)</p> -->
+                <p class="bart-title plp">Tested on GPU-L4 devices</p>
+                <div class="bar" id="bar910">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar910-value">3.6x</span>
+                    <span class="bar-text">Energy Savings</span>
+                </div>
+                <div class="bar" id="bar10">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar10-value">70%</span>
+                    <span class="bar-text">Memory Savings</span>
+                </div>
+               
+                <div class="bar" id="bar9">
+                    <span class="bar-value animated-box animate__animated animate__fadeInRight animate__delay-2s" id="bar9-value">3.6x</span>
+                    <span class="bar-text">Latency  Speedup</span>
+                </div>
+            </div>
+            <!-- Add more bar containers as needed -->
+    
+            <div class="options-container">
+                <div id="preloader" class="preloader"></div>
+                <!-- <p id="loadingText" class="loading-text">Loading...</p> -->
+            </div>
+            <br>
+            <button class="poz" id="button1" onclick="changeBars('YoloV8/RT-Detr'); changeColor('button1')">YoloV8/RT-Detr</button>
+            <button class="poz" id="button2" onclick="changeBars('VanillaNet'); changeColor('button2')">VanillaNet</button>
+            <button class="poz" id="button3" onclick="changeBars('Llama-7B'); changeColor('button3')">Llama-7B</button>
+            <button class="poz" id="button4" onclick="changeBars('Stable-Diffusion'); changeColor('button4')">Stable-Diffusion</button>
+            <button class="poz" id="button5" onclick="changeBars('BERT'); changeColor('button5')">BERT</button>
+            
+    
+        <script>
+            // Add this script at the bottom of your HTML body or inside a script tag in the head section.
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("button1").click(); // Trigger click event for the first button
+});
+
+            let previousButton = null;
+        
+            function changeColor(buttonId) {
+                const button = document.getElementById(buttonId);
+        
+                // If the clicked button is already active, return
+                if (button.classList.contains('active')) {
+                    return;
+                }
+        
+                // If there was a previously active button, remove its 'active' class
+                if (previousButton !== null) {
+                    previousButton.classList.remove('active');
+                }
+        
+                // Add 'active' class to the clicked button
+                button.classList.add('active');
+        
+                // Set the clicked button as the previous button
+                previousButton = button;
+            }
+        </script>
+        <style>
+            @media screen and (max-width: 768px) {
+    #bar1 {
+        width: 10px; /* Adjust the width for smaller screens */
+    }
+    #bar2 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar3 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar4 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar5 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar6 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar7 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar8 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar9 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar10 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    }
+
+    #bar12 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar34 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar56 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar78 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    } #bar910 {
+        width: 2000px; /* Adjust the width for smaller screens */
+    }
+    /* Add similar rules for other bars */
+}
+
+        </style>
+    <script>
+        
+        function changeBars(option) {
+            
+            // Reset all bars to initial width and clear values
+            var bars = document.querySelectorAll('.bar');
+            bars.forEach(function(bar) {
+                bar.style.width = 'calc(' + bar.querySelector('.bar-value').innerText + ')';
+                bar.querySelector('.bar-value').innerText = '';
+            });
+
+            // Hide all bar containers
+            var barContainers = document.querySelectorAll('.bar-container');
+            barContainers.forEach(function(container) {
+                container.style.display = 'none';
+            });
+            switch(option) {
+    case 'YoloV8/RT-Detr':
+        var screenWidth = window.innerWidth;
+        var bar1Width = (screenWidth * 0.135) +100;
+        var bar2Width = (screenWidth * 0.202)+100;
+        var bar12Width = (screenWidth * 0.169)+100;
+
+        document.getElementById('bar1').style.width = bar1Width + 'px';
+        document.getElementById('bar1-value').innerText = '4.6x';
+        document.getElementById('bar2').style.width = bar2Width + 'px';
+        document.getElementById('bar2-value').innerText = '11.7x';
+        document.getElementById('bar12').style.width = bar12Width + 'px';
+        document.getElementById('bar12-value').innerText = '7.4x';
+        document.getElementById('bar-container-1').style.display = 'block'; // Display the corresponding bar container
+        break;
+    case 'VanillaNet':
+        var screenWidth = window.innerWidth;
+        var bar3Width = (screenWidth * 0.162) +100;
+        var bar4Width = (screenWidth * 0.212) +100;
+        var bar34Width = (screenWidth * 0.232) +100;
+
+        document.getElementById('bar3').style.width = bar3Width + 'px';
+        document.getElementById('bar3-value').innerText = '9.8x';
+        document.getElementById('bar4').style.width = bar4Width + 'px';
+        document.getElementById('bar4-value').innerText = '12.5x';
+        document.getElementById('bar34').style.width = bar34Width + 'px';
+        document.getElementById('bar34-value').innerText = '13.4x';
+        document.getElementById('bar-container-2').style.display = 'block';
+        break;
+    case 'Llama-7B':
+        var screenWidth = window.innerWidth;
+        var bar5Width = (screenWidth * 0.135) +100;
+        var bar6Width = (screenWidth * 0.192) +100;
+        var bar56Width = (screenWidth * 0.160) +100;
+
+        document.getElementById('bar5').style.width = bar5Width + 'px';
+        document.getElementById('bar5-value').innerText = '4.8x';
+        document.getElementById('bar6').style.width = bar6Width + 'px';
+        document.getElementById('bar6-value').innerText = '9.2x';
+        document.getElementById('bar56').style.width = bar56Width + 'px';
+        document.getElementById('bar56-value').innerText = '7.2x';
+        document.getElementById('bar-container-3').style.display = 'block';
+        break;
+    case 'Stable-Diffusion':
+        var screenWidth = window.innerWidth;
+        var bar7Width = (screenWidth * 0.135) +100;
+        var bar8Width = (screenWidth * 0.212) +100;
+        var bar78Width = (screenWidth * 0.166) +100;
+
+        document.getElementById('bar7').style.width = bar7Width + 'px';
+        document.getElementById('bar7-value').innerText = '3.6x';
+        document.getElementById('bar8').style.width = bar8Width + 'px';
+        document.getElementById('bar8-value').innerText = '10.2x';
+        document.getElementById('bar78').style.width = bar78Width + 'px';
+        document.getElementById('bar78-value').innerText = '5.6x';
+        document.getElementById('bar-container-4').style.display = 'block';
+        break;
+    case 'BERT':
+        var screenWidth = window.innerWidth;
+        var bar9Width = (screenWidth * 0.135) +100;
+        var bar10Width = (screenWidth * 0.222) +100;
+        var bar910Width = (screenWidth * 0.172) +100;
+
+        document.getElementById('bar9').style.width = bar9Width + 'px';
+        document.getElementById('bar9-value').innerText = '4.7x';
+        document.getElementById('bar10').style.width = bar10Width + 'px';
+        document.getElementById('bar10-value').innerText = '12.5x';
+        document.getElementById('bar910').style.width = bar910Width + 'px';
+        document.getElementById('bar910-value').innerText = '8x';
+        document.getElementById('bar-container-5').style.display = 'block';
+        break;
+    // Add cases for other options
+}
+
+            var additionalText = document.getElementById('additional-text');
+            if (additionalText) {
+                additionalText.style.display = 'block';
+            }
+        }
+    </script>
+    </div>
+    
+    <script>
+        function changeImage(imageUrl) {
+            var preloader = document.getElementById('preloader');
+            var loadingText = document.getElementById('loadingText');
+            
+            preloader.style.display = 'block'; // Show preloader
+            loadingText.style.display = 'block'; // Show loading text
+            
+            var img = document.createElement('img');
+            img.onload = function() {
+                preloader.style.display = 'none'; // Hide preloader once the image is loaded
+                loadingText.style.display = 'none'; // Hide loading text once the image is loaded
+            };
+            img.src = imageUrl;
+            img.className = 'dynamic-image';
+            
+            var container = document.querySelector('.images-container');
+            var existingImage = document.querySelector('.dynamic-image');
+            if (existingImage) {
+                container.replaceChild(img, existingImage);
+            } else {
+                container.appendChild(img);
+            }
+        }
+    </script>
+    
+    </div>
+    </div>
+    </section>
+    
+    <!-- Services  -->
+    <section class="-py-5 Services olp">
+        <br> <br> <br>
+        <div class="container">
+            <div class="section ourTeam">
+
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6  col-md-6 ">
+                        <div class="">
+                            <div class=" text-center">
+                                <div class=" pb-3">
+                                    <img src="assets/images/icon1.svg" class="img-fluid">
+                                    <div class="info mt-3">
+                                        <h4 class="position">Save upto <span>80%</span> on<br>
+                                            the gpu computing cost </h4>
+                                    </div>
+                                </div>
+                                <div class="">
+
+                                    <p>As DL models become increasingly demanding, we're experts<br> in optimizing them
+                                        for efficiency, resulting in significant cost savings while <br> maintaining
+                                        peak performance.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        .mjk{
+                            margin-top: -40px;
+                        }
+                        @media (max-width:401px){
+                            .gtu{
+                                margin-top:-20%;
+                            }
+                            .misn-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start;
+   
+    height:820px; /* Make each block take up the full height of its parent */
+}
+                            .dsa{
+                                font-size: 10px;
+                            }
+                            .wes{
+                                margin-top: -70%;
+                            }
+                            .vbnf{
+                                margin-bottom: 20%;
+                            }
+
+                        }
+                        @media (max-width:768px){
+                           
+                            .kj{
+                                margin-top: 6%;
+                            }
+                        }
+                        @media (min-width:800px) and (max-width:1068px){
+                           
+                           .kj{
+                               margin-top: 2%;
+                           }
+                           
+                          
+                       } 
+                       @media (min-width:769px) and (max-width:1068px){
+                           
+                           .kj{
+                               margin-top: 2%;
+                           }
+                           .ert{
+                            margin-top: 3%;
+                           }
+                          
+                       } 
+                       @media (min-width:576px) and (max-width:768px){
+                           
+                           .ert{
+                            margin-top: 20%;
+                           }
+                          
+                       } 
+                        @media (min-width:1009px) and (max-width:1250px){
+                           
+                           .kj{
+                               margin-top: -1%;
+                           }
+                       } 
+                        .nmj{
+                            margin-top: 80px;
+                        }
+                        .nmjj{
+                            margin-top: 40px;
+                        }
+                    </style>
+                    
+                    <div class="col-lg-6 col-sm-6  col-md-6 mjk kj">
+                        <div class="">
+                            <div class=" text-center">
+                                <div class="">
+                                    <img src="assets/images/icon-3.svg " class="img-fluid" style="width: 21%;"><br>
+                                   <br> <div class="info">
+                                        <h4 class="position mr-4">Enable powerful DL <br>
+                                            models on small devices </h4>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p>We've mastered the art of making Generative AI models lean and efficient,<br>
+                                        enabling deployment on mobile devices and bringing the magic of AI to a
+                                        <br>broader
+                                        audience.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-6 col-sm-6  col-md-6 nmj">
+                        <div class="">
+                            <div class=" text-center">
+                                <div class=" pb-3">
+                                    <img src="assets/images/icon-2.svg" class="img-fluid -mt-24"><br>
+                                    <div class="info"><br>
+                                        <h4 class="position ml-4 ">Get up to <span>6x</span> inference<br>
+                                            speeds on same devices </h4>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p>Our deep learning models are engineered for unrivaled inference speeds,<br>
+                                        enhancing
+                                        user experiences and enabling seamless follow-up tasks, particularly<br> in
+                                        critical
+                                        applications like autonomous driving and object detection.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6  col-md-6 nmj nmj  kj ">
+                        <div class="">
+                            <div class=" text-center">
+                                <div class="mt-4 ert">
+                                    <img src="assets/images/icon-6.png" class="img-fluid pb-5" style="width:55%;" >
+                                    <div class="info ert">
+                                        <h4 class="position">Secure your data by <br>
+                                            switching to edge computing </h4>
+                                    </div>
+                                </div>
+                                <div class="nmjj">
+                                    <p>Data privacy and security are non-negotiable. Nyun AI ensures the utmost<br>
+                                        protection by deploying deep learning models on edge devices, eliminating the
+                                        <br>need for streaming data on the cloud and ensuring private and secure
+                                        networks.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="clearfix"></div>
+<!--     <section class="un-lock">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-4">
+                        <h3>Our Results</h3>
+                        
+                         <div class="grd_green_box">
+                            <div class="pull-left">
+                                <div>Runtime </div>
+        <div>Latency </div>
+        <div>Speedup</div>
+                            </div>
+                            <div class="pull-right">
+                                <div>Upto</div>
+                                <div>9.8x</div>
+                            </div>
+                            <div class="clearfix"></div>
+        
+    </div>
+                    </div>
+                    <div class="col-lg-8">
+                        
+         <div class="container mt-4">
+       
+        <div class="tab-content">
+            <div id="tab1" class="tab-pane fade show active">
+                <h3>Tab 1 Content</h3>
+                <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and security, which are paramount for your organization. With this in mind, we take rigorous measures to ensure that your data is masked at every point, safeguarding it from any potential vulnerabilities. </p>
+            </div>
+            <div id="tab2" class="tab-pane fade">
+                <h3>Tab 2 Content</h3>
+                <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and security, which are paramount for your organization. With this in mind, we take rigorous measures to ensure that your data is masked at every point, safeguarding it from any potential vulnerabilities. </p>
+            </div>
+            <div id="tab3" class="tab-pane fade">
+                <h3>Tab 3 Content</h3>
+                <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and security, which are paramount for your organization. With this in mind, we take rigorous measures to ensure that your data is masked at every point, safeguarding it from any potential vulnerabilities. </p>
+            </div>
+             <div id="tab4" class="tab-pane fade">
+                <h3>Tab 4 Content</h3>
+                <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and security, which are paramount for your organization. With this in mind, we take rigorous measures to ensure that your data is masked at every point, safeguarding it from any potential vulnerabilities. </p>
+            </div>
+             <div id="tab5" class="tab-pane fade">
+                <h3>Tab 5 Content</h3>
+                <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and security, which are paramount for your organization. With this in mind, we take rigorous measures to ensure that your data is masked at every point, safeguarding it from any potential vulnerabilities. </p>
+            </div>
+        </div>
+         <ul class="nav nav-tabs" id="myTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab1">YoloV8/RT-Detr</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab2">VanillaNet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab3">Llama-7B</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab4">Stable-Diffusion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab5">BERT</a>
+            </li>
+        </ul>
+    </div>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Services -->
+    <div class="llo">
+    <section id="nyunaizero container" class="zero py-5 olp llo container ">
+        <div class="py-5 bn ">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mt-5">
+                    <img src="assets/images/image-2.svg" class="w-100 wow zoomIn" data-wow-delay="0.1s"
+                        style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                </div>
+                <div class="col-lg-12 text-center zeros pb-4">
+                    <img src="assets/images/1.svg" class="">
+                </div>
+                <div class="col-lg-12 text-center mt-5 wow zoomIn" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                    <div style="margin: 0 7%;">
+                        <h5 style="font-size: 28px">Nyun Zero is a No-code, Super user-friendly, 360-degree efficiency AI-driven suite.</h5>
+                        <p class="jk">Nyun Zero provides a seamless and hassle-free entry point to the world of Artificial Intelligence, whether you're a seasoned pro or just starting out. It encompasses multiple frameworks for deep learning models and is flexible in terms of deployment on multiple devices. You can swiftly implement AI solutions within your organization, empowering your team to leverage the full potential of AI in solving complex problems and driving innovation.</p>
+                        <div class="mt-5 complex">
+                            <button type="button" class="btn kl btn-outline-secondary" onclick="window.location.href='https://zero.nyunai.com'">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</div>
+    <style>
+  .equal-height-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Make all boxes the same height */
+}
+@media (min-width:402px){
+.misn-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start;
+   
+    height: 100%; /* Make each block take up the full height of its parent */
+}}
+.llo{
+    background-color: black;
+}
+.lc-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; /* Allow block to grow to fill available space */
+}
+
+.lc-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Adjust spacing between images if needed */
+}
+
+.lc-block.heading h4 {
+    margin-bottom: 10px; /* Adjust spacing between heading and points if needed */
+}
+
+.lc-block.heading ul {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+.lc-block.heading ul li {
+    list-style: none; /* Remove default list style */
+    margin-bottom: 5px; /* Adjust spacing between points if needed */
+}
+
+.lc-block.heading button {
+    margin-top: auto; /* Align button to the bottom */
+}
+.hh{
+    margin-top: -15px;;
+}
+.olp{
+    margin-top: -5px;
+}
+    </style>
+    <section id="nyunadapt" class="un-lock py-5 olp">
+        <div class="container py-5">
+           
+                <div class="row justify-content-center mt-3 mt-md-5 equal-height-container">
+        <div class="col-md-6 col-lg-5 col-xl-4 mt-5">
+            <div class="misn-block lc-block h-misn-block">
+                <div class="lc-block">
+ <img class="img-fluid" src="assets/images/logo-img.png">
+<img class="img-fluid" src="assets/images/nyun_adapt_illustration.svg">
+                </div>
+                <div class="lc-block heading dsa">
+                    <br>
+                        <h4>Unlock the full potential of Generative models </h4>
+                    <ul>
+                        <li>Tailored &amp; Efficient LLM Fine-Tuning, Affordable Rates</li>
+                        <li> Easy Data Upload While Preserving Privacy </li>
+                        <li> Efficient Deployment with Nyun Zero
+                        </li>
+                    </ul><br>
+                    <a href ='./contact-us.html'>
+                    <button developing="" type="button" class="btn kl btn-success px-2">Hamess the power of Nyun Adapt</button> 
+                </a> </div>
+                
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-5 col-xl-4 mt-5 vbnf">
+            <div class="misn-block lc-block h-misn-block">
+                <div class="lc-block ">
+ <img class="img-fluid " src="assets/images/compressd.png">
+<img class="img-fluid wes " src="assets/images/nyun_kompress_illustration.svg">
+                </div>
+                <div class="lc-block heading hh dsa">
+                    <br> <br><br> 
+                        <h4 class="gtu" >Make your models ultra efficient </h4>
+                    <ul>
+
+                        <li>Use multiple model compression techniques to make the models fast and efficient.</li>
+                        <li> Get compute-efficient & fast DL models </li>
+                        <li> Easily deployable through Nyun Zero platform
+                        </li>
+                    </ul><br>
+                    <a href ='./contact-us.html'>
+                    <button developing="" type="button" class="btn kl btn-success px-2">Discover Nyun Kompress</button>
+                </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-5 col-xl-4 mt-5 gtu">
+            <div class="misn-block lc-block h-misn-block gtu">
+                <div class="lc-block ">
+ <img class="img-fluid " src="assets/images/track_logo.svg">
+<img class="img-fluid " src="assets/images/nyun_track_illustration.svg">
+                </div>
+                <div class="lc-block heading dsa">
+                    <br>
+                        <h4>All relevant KPIs at your fingertips </h4>
+                    <ul>
+
+                        <li>Tracker shows real-time metrics which are relevant for a model.</li>
+                        <li> Super easy to deploy. </li>
+                        
+                    </ul>
+                    <br><a href ='./contact-us.html'>
+                    <button developing="" type="button" class="btn btn-success">Monitor with Nyun Tracker</button></a>
+                </div>
+                
+            </div>
+        </div>
+      
+    </div>
+                
+                
+               
+            </div>
+        </div>
+<br><br>
+    </section>
+
+    <!-- Mobile View -->
+    <div class="bg-black">  <br><br>
+    <div class="container">
+    <section class="privacy py-5">
+        <div class="container mt-3">
+            
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 safeguarding"><img src="assets/images/abc.png" class="w-100"></div>
+                <div class="col-lg-1 col-sm-1 col-md-1"></div>
+                <div class="col-lg-8 col-sm-8 col-sm-8 deep1">
+                    <h5>Safeguarding your data privacy</h5>
+                    <p>At Nyun AI, we deeply value the significance of your data and prioritize its privacy and
+                        security, which
+                        are paramount for your organization. With this in mind, we take rigorous measures to ensure that
+                        your data
+                        is masked at every point, safeguarding it from any potential vulnerabilities. Moreover, we offer
+                        the
+                        flexibility of deploying our tools on user servers, granting you complete control and ownership
+                        of your
+                        data. Rest assured, your data remains solely with you, reinforcing our commitment to maintaining
+                        its
+                        confidentiality and protection.</p>
+                    <div class="text-front">
+                        <button type="button" class="btn btn-outline-secondary">Read our privacy policy
+                            
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></div></div>
+    <style>
+       .deep{
+         padding: 0 20%;
+         margin-bottom: -5%;
+       }
+       .deep1{
+        padding: 0 10%;
+       }
+    </style>
+    
+    <div class="bg-black olp">
+        <br>
+        <div class="container">
+            <section class="journey py-5 ">
+                <div class="container pb-5">
+                    <div class="row">
+                        <div class="col-lg-12 deep ">
+                            <h4>Ready to Embark on your AI journey?</h4>
+                            <p>Unveil the possibilities of streamlined, efficient, and lightning-fast deep learning models with
+                                Nyun AI.
+                                Together, let's shape a sustainable and potent AI future. Reach out to our team today to delve
+                                into how our
+                                solutions can revolutionize your business.
+                            </p>
+                            <div class="mt-2">
+                                <!-- <a href="<?php echo base_url('contact');?>"> <button Developing type="button"  class="btn btn-success px-5">&nbsp;&nbsp; Schedule a Call
+                                    &nbsp;&nbsp;</button></a> -->
+                                <a href="./coming.html"> <button Developing type="button"  class="btn btn-success px-5">&nbsp;&nbsp; Schedule a Call
+                                    &nbsp;&nbsp;</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+
+    <footer class="bg-dark text-white text-lg-start py-5 olp llo">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-4 col-sm-4 mb-4 mb-md-0 wow zoomIn" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn; margin-left:7%;margin-right: 5%;">
+                    <img src="assets/images/footer-logo.svg" class="w-100 pb-5">
+                    <p class="mt-4 pb-2">The trailblazers in unleashing the true potential of your business through our
+                        cutting-edge AI solutions using lean, efficient, and super-fast deep learning models</p>
+                    <span class="copy">© nyunai private limited. All rights reserved.</span>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-sm-4 col-md-4 col-lg-2 mb-4 mb-md-4 wow zoomIn" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                    <h5 class="text-uppercase mb-4">QUICK LINKS</h5>
+    
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="./coming.html" class="">Support</a></li>
+                        <li><a href="./coming.html" class="">Demo</a></li>
+                        <li><a href="./coming.html" class="">About</a></li>
+                      
+                  
+                    </ul>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                
+                <div class="col-sm-4 col-md-4 col-lg-2 mb-4 mb-md-4 wow zoomIn  margin-left:7%;margin-right: 5%;" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                    <h5 class="text-uppercase mb-4">PRODUCTS</h5>
+    
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#nyunaizero" class="">nyunzero</a></li>
+                        <li><a href="#nyunadapt" class="">nyunadapt</a></li>
+                        <li><a href="#nyunkompress" class="">nyunkompress</a></li>
+                        <li><a href="#ntrack" class="">nyuntrack</a></li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-4 mb-md-0 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                    <h5 class="text-uppercase mb-4">SOCIAL</h5>
+                
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="https://in.linkedin.com/company/nyunai?trk=public_profile_experience-item_profile-section-card_image-click" class="text-white"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                       
+                        <li><a href="https://twitter.com/Nyun_AI_" class="text-white"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="mailto:contact@nyunai.com" class="text-white"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <!-- <div class="col-sm-4 col-md-4 col-lg-2 mb-4 mb-md-0 -ml-24">
+                    <h5 class="text-uppercase mb-4">CONTACT</h5>
+                    <p>contact@nyunai.com</p>
+                </div> -->
+                <!-- Grid column -->
+                
+                <!-- Grid column -->
+                <div class="col-lg-12 mt-4">
+                    <span class="copys">© nyunai private limited. All rights reserved.</span>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    
+    <!-- Social Icons Start-->
+   
+    <!-- Social Icons End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script src="assets/lib/counterup/counterup.min.js"></script>
+    <script src="assets/lib/superfish/superfish.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+<script>
+    (function () {
+        var Flip;
+
+        Flip = class Flip {
+            constructor(el) {
+                this.el = el;
+                this.el = $(this.el);
+                this.currentStep = 0;
+                console.log("Created new Flip");
+                $('.next').on('click', $.proxy(this.next, this));
+            }
+
+            next(event) {
+                var currentStepEl, nextStepEl, nextStepNum;
+                if (event) {
+                    event.preventDefault();
+                }
+                nextStepNum = this.currentStep + 1;
+                currentStepEl = this.el.find(`.step${this.currentStep}`);
+                nextStepEl = this.el.find(`.step${nextStepNum}`);
+                if (nextStepEl.length) {
+                    console.log('we found the next step', nextStepEl);
+                    currentStepEl.prev().removeClass('down');
+                    currentStepEl.removeClass('set');
+                    currentStepEl.addClass('down');
+                    nextStepEl.addClass('set');
+                    nextStepEl.removeClass('down');
+                    nextStepEl.next().removeClass('down');
+                    return this.currentStep++;
+                } else {
+                    // reset to 0
+                    this.el.find(".step").removeClass('set');
+                    this.el.find(`.step${this.currentStep}`).addClass('down');
+                    this.el.find(".step").not(`.step${this.currentStep}`).removeClass('down');
+                    this.currentStep = -1;
+                    return this.next();
+                }
+            }
+        };
+
+
+
+        $(function () {
+            var f;
+            f = new Flip(document.getElementById('flipper'));
+            return setInterval(function () {
+                return f.next();
+            }, 1500);
+        });
+
+    }).call(this);
+
+//# sourceURL=coffeescript
+</script>
+<script>
+ $(document).ready(function() {
+            let activeTab = 0;
+
+            function showTab(tab) {
+                $('.nav-link').removeClass('active');
+                $('#tab' + tab).addClass('active');
+                $('.tab-pane').removeClass('show active');
+                $('#tab' + tab).addClass('show active');
+            }
+
+            function slideTabs() {
+                showTab(activeTab);
+                activeTab = (activeTab + 1) % 3; // Adjust the number of tabs as needed
+            }
+
+            setInterval(slideTabs, 3000); // Adjust the interval (in milliseconds) as needed
+        });
+</script>

@@ -1,0 +1,47 @@
+.jk{
+width:100%;
+}
+.lc-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+@media (min-width:1100px){
+.misn-block {
+    height: 110%;
+}
+}
+@media (max-width:1099px){
+    .misn-block {
+        height: 100%;
+        margin-bottom:2%;
+    }
+    }
+.heading {
+    flex-grow: 1;
+   min-height: 190px; /* Set a minimum height for the heading */
+}
+.kl{
+    margin-top: auto;
+}
+.partner-logos-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+    
+    padding-bottom: 20px; /* Adding some padding at the bottom to ensure scrollbar visibility */
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0) 100%);
+    padding: 20px;
+}
+
+
+.logo-row {
+    margin-right: 20px; /* Adding space between logos */
+    display: inline-block;
+}
+
+.partner-logo {
+    margin-right: 150px; /* Adding space between logos */
+}

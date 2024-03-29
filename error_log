@@ -1,0 +1,4 @@
+[24-Nov-2023 01:14:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Symfony\Component\Mailer\Mailer::getDebug() in /home4/nyunaico/public_html/nyunai.in/sendmail.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/nyunaico/public_html/nyunai.in/sendmail.php on line 28

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Color Change</title>
+<style>
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+    .button.active {
+        background-color: black; /* Change background color to black when active */
+    }
+</style>
+</head>
+<body>
+
+<button id="button1" class="button" onclick="changeColor('button1')">Button 1</button>
+<button id="button2" class="button" onclick="changeColor('button2')">Button 2</button>
+
+<script>
+    let previousButton = null;
+
+    function changeColor(buttonId) {
+        const button = document.getElementById(buttonId);
+
+        // If the clicked button is already active, return
+        if (button.classList.contains('active')) {
+            return;
+        }
+
+        // If there was a previously active button, remove its 'active' class
+        if (previousButton !== null) {
+            previousButton.classList.remove('active');
+        }
+
+        // Add 'active' class to the clicked button
+        button.classList.add('active');
+
+        // Set the clicked button as the previous button
+        previousButton = button;
+    }
+</script>
+
+</body>
+</html>

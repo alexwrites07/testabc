@@ -1,0 +1,75 @@
+<svg width="1529" height="404" viewBox="0 0 1529 404" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M725 71L1167.5 375.5" stroke="white"/>
+<rect x="153" y="356" width="25" height="25" fill="url(#pattern0)"/>
+<rect x="63" y="183" width="23" height="23" transform="rotate(-90 63 183)" fill="url(#pattern1)"/>
+<rect y="23" width="23" height="23" transform="rotate(-90 0 23)" fill="url(#pattern2)"/>
+<path d="M22 21L64 165" stroke="white"/>
+<path d="M176 358L416 95" stroke="white"/>
+<rect x="726" y="42" width="29" height="30" transform="rotate(90 726 42)" fill="url(#pattern3)"/>
+<rect x="436" y="101" width="25" height="26" transform="rotate(-180 436 101)" fill="url(#pattern4)"/>
+<rect x="1168" y="404" width="29" height="29" transform="rotate(-180 1168 404)" fill="url(#pattern5)"/>
+<rect x="1272" y="68" width="33" height="32" fill="url(#pattern6)"/>
+<rect x="1529" y="135" width="19" height="19" transform="rotate(-180 1529 135)" fill="url(#pattern7)"/>
+<rect x="1198" y="259" width="26" height="26" transform="rotate(-180 1198 259)" fill="url(#pattern8)"/>
+<path d="M1197 237L1277 91" stroke="white"/>
+<rect x="224" y="197" width="25" height="24" transform="rotate(90 224 197)" fill="url(#pattern9)"/>
+<rect x="249" y="103" width="15" height="14" transform="rotate(-180 249 103)" fill="url(#pattern10)"/>
+<rect x="405" y="375" width="17" height="17" transform="rotate(-90 405 375)" fill="url(#pattern11)"/>
+<path d="M220 218L410 361" stroke="white"/>
+<rect x="1111" y="43" width="25" height="25" transform="rotate(90 1111 43)" fill="url(#pattern12)"/>
+<rect x="1477" y="365" width="27" height="27" transform="rotate(-90 1477 365)" fill="url(#pattern13)"/>
+<path d="M1101 60L1484 344" stroke="white"/>
+<path d="M1486 363L1167.5 375.5" stroke="white"/>
+<path d="M433 76L697 42" stroke="white"/>
+<path d="M435 97.5L583.5 217" stroke="white"/>
+<path d="M201 197L84 182" stroke="white"/>
+<path d="M1304 68L1510 135" stroke="white"/>
+<path d="M221 197.5L235 100.5" stroke="white"/>
+<path d="M21.5 22L235 103" stroke="white"/>
+<path d="M1511 134.5L1478 341" stroke="white"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="matrix(0.00201654 0 0 0.00194932 -0.0172413 0)"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="matrix(0.00202729 0 0 0.00194932 -0.0199999 0)"/>
+</pattern>
+<pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="matrix(0.00194932 0 0 0.00201023 0 -0.015625)"/>
+</pattern>
+<pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern8" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern9" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="matrix(0.00194932 0 0 0.00203054 0 -0.0208334)"/>
+</pattern>
+<pattern id="pattern10" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="matrix(0.00194932 0 0 0.00208855 0 -0.0357144)"/>
+</pattern>
+<pattern id="pattern11" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern12" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<pattern id="pattern13" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_267_135" transform="scale(0.00194932)"/>
+</pattern>
+<image id="image0_267_135" width="513" height="513" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgEAAAIBCAYAAADQ5mxhAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAh9SURBVHgB7dmxDQIwEATBN6IQKI3O6cQ4RGSEsDPS9bDSrYEv7GMA+HnruAwAkCQCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAESJAACIEgEAECUCACBKBABAlAgAgCgRAABRIgAAokQAAERd9963AQBy1omAPQBAyjrcAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAAagSQQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUSIAAKJEAABEiQAAiBIBABAlAgAgSgQAQJQIAIAoEQAAUdcBAD49zp7z59Y+BgB4d19rPefPuQMAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCACAKBEAAFEiAACiRAAARIkAAIgSAQAQJQIAIEoEAECUCAAAAICSF8eDFWC6dGM/AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
